@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Accessibility, ArrowLeft, ArrowUpLeft, Bath, Car, Check, ChevronLeft, ChevronRight, ClipboardCheck, Fan, HardHat, MapPin, Menu, Phone, ShieldCheck, Snowflake, Star, Store, Wrench, X, ZoomIn } from 'lucide-react';
 
-const phone = '01000043458';
 const whatsappNumber = '01000043453';
 const landline = '5056568';
 const whatsapp = 'https://wa.me/201000043453?text=' + encodeURIComponent('مرحباً، أود الاستفسار عن خدمات الدولية للتكييف.');
@@ -77,7 +76,7 @@ function App() {
             {navItems.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
           </nav>
           <div className="head-actions">
-            <a className="phone-link" href={`tel:${phone}`} aria-label={`اتصل على ${phone}`}><Phone size={16}/>{phone}</a>
+            <a className="phone-link" href={`tel:${whatsappNumber}`} aria-label={`اتصل على ${whatsappNumber}`}><Phone size={16}/>{whatsappNumber}</a>
             <a className="button button-blue" href={whatsapp} target="_blank" rel="noreferrer">اطلب خدمة <ArrowLeft size={16}/></a>
           </div>
           <button className="menu-toggle" type="button" aria-label={menuOpen ? 'إغلاق القائمة' : 'فتح القائمة'} aria-expanded={menuOpen} onClick={() => setMenuOpen((open) => !open)}>
@@ -247,13 +246,10 @@ function App() {
               <p>لطلب مقايسة أو الاستفسار عن البيع والتأسيس والتركيب والصيانة، أرسل تفاصيل الموقع أو صور المكان عبر واتساب، أو تواصل معنا مباشرة.</p>
               <div className="contact-options">
                 <a className="button button-light" href={estimateLink} target="_blank" rel="noreferrer">اطلب مقايسة عبر واتساب <ArrowLeft size={16}/></a>
-                <a className="button" style={{border:'1px solid #ffffff69',color:'white'}} href={`tel:${phone}`}><Phone size={16}/> اتصل الآن</a>
+                <a className="button" style={{border:'1px solid #ffffff69',color:'white'}} href={`tel:${whatsappNumber}`}><Phone size={16}/> اتصل الآن</a>
               </div>
             </div>
             <div className="contact-detail">
-              <small>موبايل</small>
-              <a href={`tel:${phone}`}><Phone size={20}/>{phone}</a>
-              <hr/>
               <small>موبايل وواتساب</small>
               <a href={`tel:${whatsappNumber}`} style={{fontSize:19}}><Phone size={18}/>{whatsappNumber}</a>
               <a href={whatsapp} target="_blank" rel="noreferrer" style={{fontSize:15}}>ابدأ محادثة واتساب <ArrowLeft size={16}/></a>
@@ -272,14 +268,14 @@ function App() {
         <div className="wrap footer-inner">
           <span className="footer-brand">الدولية للتكييف</span>
           <span>لأعمال التكييف والتجارة · منذ 2006</span>
-          <a href={`tel:${phone}`}>{phone}</a>
+          <a href={`tel:${whatsappNumber}`}>{whatsappNumber}</a>
           <a href={mapsLink} target="_blank" rel="noreferrer">مرسى مطروح · شارع علم الروم</a>
           <span>© الدولية للتكييف</span>
         </div>
       </footer>
       <div className="mobile-bar" aria-label="خيارات التواصل">
         <a className="button button-blue" href={whatsapp} target="_blank" rel="noreferrer">واتساب <ArrowLeft size={15}/></a>
-        <a className="button button-line" href={`tel:${phone}`}><Phone size={15}/> اتصال</a>
+        <a className="button button-line" href={`tel:${whatsappNumber}`}><Phone size={15}/> اتصال</a>
       </div>
       {activePhoto !== null && <div className="lightbox" role="dialog" aria-modal="true" aria-label="معرض الصور" onClick={() => setActivePhoto(null)}>
         <button className="lightbox-close" type="button" aria-label="إغلاق الصورة" onClick={() => setActivePhoto(null)}><X size={23}/></button>
