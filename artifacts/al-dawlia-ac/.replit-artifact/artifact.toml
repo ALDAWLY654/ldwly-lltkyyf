@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "الدولية للتكييف"
+description = "موقع عربي احترافي لشركة الدولية لأعمال التكييف والتجارة، يعرض خدمات التأسيس والتركيب والصيانة ومشاريع الشركة مع وسائل تواصل مباشرة."
+version = "1.0.0"
+id = "artifacts/al-dawlia-ac"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24411
+
+[services.development]
+run = "pnpm --filter @workspace/al-dawlia-ac run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/al-dawlia-ac", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/al-dawlia-ac/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24411"
+BASE_PATH = "/"

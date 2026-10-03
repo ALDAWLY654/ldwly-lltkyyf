@@ -1,0 +1,1 @@
+- [ELARABY affiliation wording](elaraby-affiliation.md) — Do not claim authorized distributor status from the visible logo alone; describe the brand without asserting authorization.
