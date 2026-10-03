@@ -1,1 +1,1 @@
-- [ELARABY affiliation wording](elaraby-affiliation.md) — Do not claim authorized distributor status from the visible logo alone; describe the brand without asserting authorization.
+- [Brand authorization and distribution](elaraby-affiliation.md) — User confirms ELARABY authorized-agent status and Midea and Carrier distribution.

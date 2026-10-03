@@ -1,10 +1,10 @@
 ---
-name: ELARABY affiliation wording
-description: How to describe the company's connection to ELARABY products accurately.
+name: Al-Dawliya brand distribution
+description: Confirmed agency and distributor relationships for the HVAC company.
 ---
 
-For Al-Dawliya, the user noted that the ELARABY logo appears at the company location and inferred that the company may be an authorized distributor or agent, but did not confirm that formal status. Refer to ELARABY products or the brand only; do not call the company an authorized distributor or agent unless that relationship is confirmed.
+The user confirmed that Al-Dawliya is an authorized agent for ELARABY and distributes Midea and Carrier products.
 
-**Why:** a visible logo supports a brand relationship but does not establish formal authorization.
+**Why:** the user explicitly clarified the company's current brand relationships.
 
-**How to apply:** use this wording rule in marketing copy, metadata, and future site updates about ELARABY.
+**How to apply:** describe ELARABY as an authorized agency and Midea/Carrier as distribution relationships in future marketing copy and site updates.

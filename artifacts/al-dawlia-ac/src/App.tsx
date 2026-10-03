@@ -26,7 +26,7 @@ const services = [
   { icon: HardHat, number: '01', title: 'التأسيس', copy: 'تجهيز مسارات وتمديدات التكييف بما يناسب المكان قبل مرحلة التشطيب والتركيب.' },
   { icon: Snowflake, number: '02', title: 'التركيب', copy: 'تركيب وحدات التكييف الداخلية والخارجية، مع عناية بموقع الوحدة والتوصيلات.' },
   { icon: Wrench, number: '03', title: 'الصيانة', copy: 'فحص وصيانة أجهزة التكييف للمساعدة في استعادة أداء التبريد ومعالجة الأعطال.' },
-  { icon: Store, number: '04', title: 'البيع والتوريد', copy: 'بيع أجهزة ومستلزمات التكييف، مع خيارات تشمل منتجات العربي ELARABY.' },
+  { icon: Store, number: '04', title: 'البيع والتوريد', copy: 'وكيل معتمد لمنتجات العربي، وموزّع لأجهزة ميديا وكاريير.' },
 ];
 const processSteps = [
   ['نسمع احتياجك', 'تواصل معنا وشاركنا نوع المكان والخدمة التي تبحث عنها.'],
@@ -150,7 +150,7 @@ function App() {
 
         <section className="band">
           <div className="wrap band-inner">
-            <div><h2 className="display">تحتاج جهاز تكييف أو مستلزماته؟</h2><p>استفسر عن أجهزة التكييف، بما في ذلك منتجات العربي ELARABY، وخيارات التوريد.</p></div>
+            <div><h2 className="display">تحتاج جهاز تكييف أو مستلزماته؟</h2><p>الدولية وكيل معتمد لمنتجات العربي <bdi dir="ltr">ELARABY</bdi>، وموزّع لأجهزة <bdi dir="ltr">Midea</bdi> و<bdi dir="ltr">Carrier</bdi>. تواصل لمعرفة الأجهزة المتاحة.</p></div>
             <a className="button button-light" href={inquiryLink('توريد أجهزة ومستلزمات التكييف')} target="_blank" rel="noreferrer">استفسر عن التوريد <ArrowLeft size={16}/></a>
           </div>
         </section>
@@ -234,7 +234,7 @@ function App() {
               <article><Car size={20}/><div><h3>موقف سيارات مجاني</h3><p>موقف متاح لزوار المقر.</p></div></article>
               <article><Accessibility size={20}/><div><h3>أماكن جلوس مهيأة</h3><p>أماكن جلوس تسهّل الوصول لمستخدمي الكراسي المتحركة.</p></div></article>
               <article><Bath size={20}/><div><h3>دورة مياه</h3><p>متاحة داخل الموقع.</p></div></article>
-              <div className="brand-note"><strong>العربي ELARABY</strong><span>اسألنا عن الأجهزة والمنتجات المتاحة.</span></div>
+              <div className="brand-note"><strong>وكيل معتمد لـ <bdi dir="ltr">ELARABY</bdi></strong><span>وموزّع لأجهزة <bdi dir="ltr">Midea</bdi> و<bdi dir="ltr">Carrier</bdi>.</span></div>
             </div>
           </div>
         </section>
